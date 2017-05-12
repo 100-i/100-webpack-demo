@@ -1,0 +1,24 @@
+{
+  "name": "100-webpack-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of webpack.",
+  "repository" : {
+    "type" : "git",
+    "url" : "100-i/100-webpack-demo"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "author": "100-Industries",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "material-components-web": "^0.10.0"
+  }
+}
