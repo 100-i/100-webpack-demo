@@ -2,19 +2,20 @@
   "name": "100-webpack-demo",
   "version": "1.0.0",
   "description": "Demonstration of webpack.",
-  "repository" : {
-    "type" : "git",
-    "url" : "100-i/100-webpack-demo"
+  "repository": {
+    "type": "git",
+    "url": "100-i/100-webpack-demo"
   },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "./node_modules/.bin/webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "100-Industries",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
     "webpack": "^2.5.1"
   },
   "dependencies": {
